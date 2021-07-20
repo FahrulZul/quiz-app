@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container quiz">
+            <div class="question">
+                <h2 class="question__text">
+                    The rafflesia flower can be found in Malaysia's rainforests. Which state has the highest concentration of rafflesias?
+                </h2>
+                <p class="question__tracker">1 of 5</p>
+                <div class="question__progress">
+                    <div class="question__progress-inner"></div>
+                </div>
+                <p class="question__tagline">Pick an option below!</p>
+            </div>
+            <div class="answer">
+                <!-- dynamically by JS -->
+                <!-- <div class="answer__item">
+                    <input type="radio" class="answer__input" name="answer" id="answer0" checked>
+                    <label for="answer0" class="answer__label">
+                        <i></i>
+                        <span>Pahang</span>
+                    </label>
+                </div> -->
+
+            </div>
+            <div class="button-box">
+                <button class="button button-bordered next">Next</button>
+                <button class="button button-bordered restart">Restart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
