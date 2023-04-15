@@ -1,5 +1,7 @@
-### Basic Quiz App built with Javascript. 
+### Basic Quiz App
 
-[View app](https://fahrulzul.github.io/quiz-app/)
+This is a basic quiz app built with HTML, SCSS, and Vanilla Javascript. The app utilizes the Revealing module pattern to organize and structure its code, making it easy to understand, maintain, and extend.
 
-![Screen Display](./images/screen-display.png)
+Live demo: https://fahrulzul.github.io/quiz-app/
+
+<img src="./images/screen-display.png" width="400"/>
