@@ -137,8 +137,12 @@ const App = (() => {
     const renderProgress = () => {
         //1. width
         const width = getPercentage(quiz.currentIndex, quiz.questions.length);
+        const prevWidth = getPercentage(
+            quiz.currentIndex - 1,
+            quiz.questions.length
+        );
         //2. launch(0, width)
-        launch(0, width);
+        launch(prevWidth, width);
     };
 
     const renderEndedScreen = () => {
